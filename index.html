@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>MONSTRUOS!</title>
+        <script src="./monstruos.js"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>MONSTRUOS 🔥💧🌱</h1>
+
+        <section id="seleccionar-monstruos">
+            <h2>Elige tus monstruos:</h2>
+
+            <label for="Dragon">Dragon 🐱‍🐉</label>
+            <input type="radio" name="monstruos" id="Dragon" />
+            
+            <label for="Dinosaurio">Dinosaurio🦖</label>
+            <input type="radio" name="monstruos" id="Dinosaurio" />
+            
+            <label for="Cocodrilo">Cocodrilo🐊</label>
+            <input type="radio" name="monstruos" id="Cocodrilo" />
+
+            <button id="boton-monstruos">Seleccionar</button>
+        </section>
+
+        <section id="seleccionar-ataque">
+            <h2>Elige tu ataque:</h2>
+
+            <p>Tus monstruos <span id="monstruos-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+            <p>Los monstruos <span id="monstruos-enemigo"></span> del enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>
+
+            <p>
+                <button id="boton-fuego">Fuego 🔥</button>
+                <button id="boton-agua">Agua 💧</button>
+                <button id="boton-tierra">Tierra 🌱</button>
+            </p>
+        </section>
+
+        <section id="mensajes">
+        </section>
+
+        <section id="reiniciar">
+            <button id="boton-reiniciar">Reiniciar</button>
+        </section>
+    </body>
+</html>
